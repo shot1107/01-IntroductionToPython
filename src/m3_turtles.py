@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Shota Nakada.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE_TODO: 1._
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE_TODO: 2._
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -49,7 +49,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE_TODO: 3._
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -101,11 +101,11 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
-
+natasha.right(100)
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE_TODO: 4._
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -116,6 +116,10 @@ natasha.forward(50)
 #   As always, test by running the module.
 #
 ###############################################################################
+
+shota = rg.SimpleTurtle()
+shota.pen = rg.Pen('yellow', 30)
+shota.right(100)
 
 ###############################################################################
 #
